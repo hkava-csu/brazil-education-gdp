@@ -1,69 +1,23 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "7cac2eb3-eaff-4f83-9dc9-11edd59fe020",
-   "metadata": {},
-   "outputs": [
+[
     {
-     "data": {
-      "text/plain": [
-       "{'Country': {'type': 'string', 'description': 'Name of the country (Brazil)'},\n",
-       " 'Year': {'type': 'integer',\n",
-       "  'description': 'Calendar year of the observation (2001–2020)'},\n",
-       " 'Primary Enrollment': {'type': 'integer',\n",
-       "  'description': 'Total number of students enrolled in primary education in Brazil'},\n",
-       " 'GDP per Capita': {'type': 'float',\n",
-       "  'description': 'Gross Domestic Product per capita in current US dollars'}}"
-      ]
-     },
-     "execution_count": 1,
-     "metadata": {},
-     "output_type": "execute_result"
+        "column_name": "Country",
+        "data_type": "object",
+        "meaning": ""
+    },
+    {
+        "column_name": "Year",
+        "data_type": "int64",
+        "meaning": "The calendar year of the data recording (from 2001 to 2020)."
+    },
+    {
+        "column_name": "Primary Enrollment",
+        "data_type": "float64",
+        "meaning": "Total enrollment in primary education for the given year in the specified country.",
+        "unit": "Number of students"
+    },
+    {
+        "column_name": "GDP per Capita",
+        "data_type": "float64",
+        "meaning": ""
     }
-   ],
-   "source": [
-    "{\n",
-    "  \"Country\": {\n",
-    "    \"type\": \"string\",\n",
-    "    \"description\": \"Name of the country (Brazil)\"\n",
-    "  },\n",
-    "  \"Year\": {\n",
-    "    \"type\": \"integer\",\n",
-    "    \"description\": \"Calendar year of the observation (2001–2020)\"\n",
-    "  },\n",
-    "  \"Primary Enrollment\": {\n",
-    "    \"type\": \"integer\",\n",
-    "    \"description\": \"Total number of students enrolled in primary education in Brazil\"\n",
-    "  },\n",
-    "  \"GDP per Capita\": {\n",
-    "    \"type\": \"float\",\n",
-    "    \"description\": \"Gross Domestic Product per capita in current US dollars\"\n",
-    "  }\n",
-    "}"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python [conda env:base] *",
-   "language": "python",
-   "name": "conda-base-py"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.7"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+]
