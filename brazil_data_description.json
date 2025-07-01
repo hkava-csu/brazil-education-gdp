@@ -1,0 +1,24 @@
+[
+    {
+        "column_name": "Country Name",
+        "data_type": "object",
+        "meaning": "The name of the country for which the data is provided (Brazil)."
+    },
+    {
+        "column_name": "Year",
+        "data_type": "int64",
+        "meaning": "The calendar year of the data recording (from 2001 to 2020)."
+    },
+    {
+        "column_name": "Primary Enrollment",
+        "data_type": "int64",
+        "meaning": "Total enrollment in primary education for the given year in Brazil.",
+        "unit": "Number of students"
+    },
+    {
+        "column_name": "GDP",
+        "data_type": "int64",
+        "meaning": "Gross Domestic Product per capita for the given year in Brazil.",
+        "unit": "US Dollars (current prices)"
+    }
+]
